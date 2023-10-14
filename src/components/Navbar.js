@@ -26,25 +26,24 @@ export default function Navbar() {
   }, []);
 
   const links = [
-    { name: "Home", path: "/" },
+    { name: "Menù", path: "/servizi" },
     { name: "Chi siamo", path: "/chi-siamo" },
-    { name: "Servizi", path: "/servizi" },
     { name: "Galleria", path: "/galleria" },
     { name: "Contatti", path: "/contatti" },
   ];
 
   return (
-    <div className="bg-gray-900 text-white fixed top-0 z-50 w-full">
-      <div className="container mx-auto flex justify-between items-center p-4">
+    <div className="bg-gray-900 text-white sticky top-0 z-50 w-full">
+      <div className="container mx-auto flex justify-between items-center p-3">
         <div className="logo">
-          <h1 className="text-2xl">Bar Brughi</h1>
+          <h1 className="text-2xl m-0">Bar Brughi</h1>
         </div>
         <div className="hidden md:flex space-x-4">
           {links.map((link, index) => (
             <a
               key={index}
               href={link.path}
-              className={`border-animation p-2 hover:text-gray-300 relative overflow-hidden`}
+              className={`border-animation py-3 px-10 hover:text-gray-300 relative overflow-hidden no-underline text-white`} // added no-underline and text-white
             >
               {link.name}
             </a>
@@ -53,7 +52,7 @@ export default function Navbar() {
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className={`text-2xl transform transition-transform duration-300 ${
+            className={`text-4xl transform transition-transform duration-300 ${
               isOpen ? "rotate-45" : ""
             }`}
           >
@@ -75,7 +74,7 @@ export default function Navbar() {
               <a
                 key={index}
                 href={link.path}
-                className="text-4xl hover:text-gray-300"
+                className="text-4xl hover:text-gray-300 no-underline text-white"
               >
                 {link.name}
               </a>
