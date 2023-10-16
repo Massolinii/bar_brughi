@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div
-      className="flex items-center h-screen w-full"
+      className="flex items-center h-screen w-full border-b-2 border-gray-800"
       style={{
         backgroundImage: `url(${image1.src})`,
         backgroundSize: "cover",

@@ -4,16 +4,21 @@ import PhoneIcon from "@/assets/PhoneIcon";
 
 export default function NavbarAddress() {
   return (
-    <div className="bg-gray-600 text-white w-full">
+    <div className="bg-gray-800 text-white w-full">
       <div className="container mx-auto flex justify-between items-center p-2">
         <div className="flex items-center">
-          <a className="mr-5">
+          <a
+            href="https://www.instagram.com/brughi_bar/"
+            className="mr-5"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <InstagramIcon />
           </a>
-          <a className="mr-5">
+          <a href="mailto:example@brughi.com" className="mr-5">
             <MailIcon />
           </a>
-          <a>
+          <a href="tel:+393271666666">
             <PhoneIcon />
           </a>
         </div>

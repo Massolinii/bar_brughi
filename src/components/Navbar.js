@@ -33,17 +33,19 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="bg-gray-900 text-white sticky top-0 z-50 w-full">
-      <div className="container mx-auto flex justify-between items-center p-3">
+    <div className="bg-magenta text-white sticky top-0 z-50 w-full border-b-2 border-gray-800">
+      <div className="container mx-auto flex justify-between items-center py-3">
         <div className="logo">
-          <h1 className="text-2xl m-0">Bar Brughi</h1>
+          <a href="/" className="no-underline text-white">
+            <h1 className="text-2xl m-0">Bar Brughi</h1>
+          </a>
         </div>
         <div className="hidden md:flex space-x-4">
           {links.map((link, index) => (
             <a
               key={index}
               href={link.path}
-              className={`border-animation py-3 px-10 hover:text-gray-300 relative overflow-hidden no-underline text-white`} // added no-underline and text-white
+              className={`border-animation py-3 px-4 hover:text-gray-300 relative overflow-hidden no-underline text-white`} // added no-underline and text-white
             >
               {link.name}
             </a>
