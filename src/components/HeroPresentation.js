@@ -1,6 +1,5 @@
+import SVGIcons from "@/assets/SvgIcons";
 import spritzphoto from "../images/spritz-prova.webp";
-import Stool from "@/assets/Stool";
-import StoolBroken from "@/assets/StoolBroken";
 
 import { useEffect, useState } from "react";
 
@@ -43,7 +42,7 @@ export default function HeroPresentation() {
   }, []);
 
   return (
-    <div className="bg-white w-full">
+    <div className="bg-black w-full">
       <div className="container mx-auto grid grid-cols-12 gap-4 p-0 md:my-8">
         {/* Left col for image: col-span-12 on mobile, col-span-4 on md and above */}
         <div className="col-span-12 md:col-span-4">
@@ -53,7 +52,6 @@ export default function HeroPresentation() {
             className="w-full"
           />
         </div>
-
         {/* Middle col for SVG - hidden on mobile, col-span-4 on md and above */}
         <div className="hidden md:flex md:col-span-4 justify-center items-center">
           <svg height="100" width="100">
@@ -61,26 +59,32 @@ export default function HeroPresentation() {
               cx="50"
               cy="50"
               r="40"
-              stroke="black"
+              stroke="white"
               strokeWidth="3"
-              fill="white"
+              fill="black"
             />
           </svg>
         </div>
-
         {/* Right col for text: col-span-12 on mobile, col-span-4 on md and above */}
-        <div className="col-span-12 md:col-span-4 flex flex-col justify-center items-center text-center">
-          <p className="text-3xl">Come nasce il Bar Brughi</p>
+        <div className="col-span-12 md:col-span-4 flex flex-col justify-center p-4">
+          <p className="text-4xl md:text-6xl mb-4 text-end">
+            Come <br /> nasce il <br /> Bar Brughi
+          </p>
           <p>
             Un giorno i nostri amici Kevini e Luchino si sono svegliati e si
             sono detti : come facciamo i soldi ? E quindi si sono aperti un bar.
             UALA! (flambè)
           </p>
         </div>
+        <br /> <br />
       </div>
       <div className="flex">
         {stoolsArray.map((isBroken, index) =>
-          isBroken ? <StoolBroken key={index} /> : <Stool key={index} />
+          isBroken ? (
+            <SVGIcons.StoolBroken key={index} />
+          ) : (
+            <SVGIcons.Stool key={index} />
+          )
         )}
       </div>
     </div>

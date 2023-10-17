@@ -32,7 +32,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="bg-magenta text-white sticky top-0 z-50 w-full border-b-2 border-gray-800">
+    <div className="font-nunito bg-magenta text-white sticky top-0 z-50 w-full border-b-2 border-gray-800 ">
       <div className="container mx-auto flex justify-between items-center py-3">
         <div className="logo">
           <a href="/" className="no-underline text-white">

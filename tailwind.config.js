@@ -25,6 +25,10 @@ module.exports = {
       rotate: {
         135: "135deg",
       },
+      fontFamily: {
+        nunito: ['"Nunito Sans"', "sans-serif"],
+        tilt: ['"Tilt Neon"', "cursive"],
+      },
     },
   },
   plugins: [],

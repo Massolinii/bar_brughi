@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <NavbarAddress />
         <Navbar />
-        <main>{children}</main>
+        <main className="font-nunito">{children}</main>
         <Footer />
         <Copyright />
       </body>

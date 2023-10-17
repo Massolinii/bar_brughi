@@ -1,10 +1,8 @@
-import InstagramIcon from "@/assets/InstagramIcon";
-import MailIcon from "@/assets/MailIcon";
-import PhoneIcon from "@/assets/PhoneIcon";
+import SVGIcons from "@/assets/SvgIcons";
 
 export default function NavbarAddress() {
   return (
-    <div className="bg-gray-800 text-white w-full">
+    <div className="font-nunito bg-gray-800 text-white w-full">
       <div className="container mx-auto flex justify-between items-center p-2">
         <div className="flex items-center">
           <a
@@ -13,13 +11,13 @@ export default function NavbarAddress() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <InstagramIcon />
+            <SVGIcons.Instagram />
           </a>
           <a href="mailto:example@brughi.com" className="mr-5">
-            <MailIcon />
+            <SVGIcons.Mail />
           </a>
           <a href="tel:+393271666666">
-            <PhoneIcon />
+            <SVGIcons.Phone />
           </a>
         </div>
         <div className="flex items-center text-sm">
