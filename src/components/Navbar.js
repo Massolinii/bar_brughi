@@ -28,7 +28,6 @@ export default function Navbar() {
   const links = [
     { name: "Menù", path: "/servizi" },
     { name: "Chi siamo", path: "/chi-siamo" },
-    { name: "Galleria", path: "/galleria" },
     { name: "Contatti", path: "/contatti" },
   ];
 

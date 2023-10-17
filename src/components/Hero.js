@@ -1,4 +1,4 @@
-import image1 from "../images/bancone-prova.jpg";
+import image1 from "../images/bancone-prova.webp";
 import Image from "next/image";
 
 export default function Hero() {
