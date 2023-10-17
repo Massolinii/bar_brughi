@@ -115,20 +115,20 @@ c0-7.77-5.463-14.466-13.071-16.021L154.93,43.007l224.071-0.052l0.017,371.591L333
       />
       <path
         d="M9 8L6 22"
-        stroke="white"
+        stroke="#71797E"
         strokeWidth="1.5"
         strokeLinecap="round"
       />
       <path
         d="M15 8L18 22"
-        stroke="white"
+        stroke="#71797E"
         strokeWidth="1.5"
         strokeLinecap="round"
       />
       <path
         d="M17 17H7"
-        stroke="gray"
-        strokeWidth="1.5"
+        stroke="#71797E"
+        strokeWidth="1"
         strokeLinecap="round"
       />
     </svg>
@@ -142,20 +142,20 @@ c0-7.77-5.463-14.466-13.071-16.021L154.93,43.007l224.071-0.052l0.017,371.591L333
       />
       <path
         d="M9 8L6 22"
-        stroke="white"
+        stroke="#71797E"
         strokeWidth="1.5"
         strokeLinecap="round"
       />
       <path
         d="M15 8L15.75 11.5M18 22L16.5 15"
-        stroke="white"
+        stroke="#71797E"
         strokeWidth="1.5"
         strokeLinecap="round"
       />
       <path
         d="M16.5 17H7.5"
-        stroke="gray"
-        strokeWidth="1.5"
+        stroke="#71797E"
+        strokeWidth="1"
         strokeLinecap="round"
       />
     </svg>

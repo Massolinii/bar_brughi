@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         transparent: "transparent",
-        magenta: "#662a37",
+        magenta: "#4a1621",
         primary: {
           DEFAULT: "#e85476",
           border: "#382c5e",

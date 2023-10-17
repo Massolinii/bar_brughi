@@ -1,6 +1,6 @@
 export default function Copyright() {
   return (
-    <div className="bg-gray-800 text-white w-full">
+    <div className="bg-black text-white w-full">
       <div className="container mx-auto flex justify-between items-center p-2">
         <div className="copyright">
           <p className="m-0">Copyright 2023 - Brughi Bar</p>

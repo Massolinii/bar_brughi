@@ -32,10 +32,10 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="font-nunito bg-magenta text-white sticky top-0 z-50 w-full border-b-2 border-gray-800 ">
+    <div className="font-nunito bg-magenta sticky top-0 z-50 w-full border-b-2 border-black ">
       <div className="container mx-auto flex justify-between items-center py-3">
         <div className="logo">
-          <a href="/" className="no-underline text-white">
+          <a href="/" className="no-underline ">
             <h1 className="text-2xl m-0">Bar Brughi</h1>
           </a>
         </div>
@@ -44,7 +44,7 @@ export default function Navbar() {
             <a
               key={index}
               href={link.path}
-              className={`border-animation py-3 px-4 hover:text-gray-300 relative overflow-hidden no-underline text-white`} // added no-underline and text-white
+              className={`border-animation py-3 px-4 relative overflow-hidden no-underline`}
             >
               {link.name}
             </a>

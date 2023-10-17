@@ -19,13 +19,12 @@ export default function HeroPresentation() {
 
         let newStoolsArray = [];
         if (screenWidth < 576) {
-          newStoolsArray = [0, 1, 0, 0, 1, 1, 0];
-        } else if (screenWidth >= 576 && screenWidth < 768) {
-          newStoolsArray = [0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1];
+          newStoolsArray = [0, 1, 0, 0, 1, 0];
+        } else if (screenWidth >= 576 && screenWidth < 769) {
+          newStoolsArray = [0, 1, 0, 0, 1, 0, 0, 1, 0];
         } else {
           newStoolsArray = [
-            0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0,
-            1, 0, 1, 0,
+            0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1,
           ];
         }
 
@@ -70,9 +69,9 @@ export default function HeroPresentation() {
           <p className="text-4xl md:text-6xl mb-4 text-end">
             Come <br /> nasce il <br /> Bar Brughi
           </p>
-          <p>
+          <p className="pe-12">
             Un giorno i nostri amici Kevini e Luchino si sono svegliati e si
-            sono detti : come facciamo i soldi ? E quindi si sono aperti un bar.
+            sono detti: come facciamo i soldi ? E quindi si sono aperti un bar.
             UALA! (flambè)
           </p>
         </div>
