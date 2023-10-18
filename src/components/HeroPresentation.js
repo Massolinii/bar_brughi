@@ -66,7 +66,7 @@ export default function HeroPresentation() {
         </div>
         {/* Right col for text: col-span-12 on mobile, col-span-4 on md and above */}
         <div className="col-span-12 md:col-span-4 flex flex-col justify-center p-4">
-          <p className="text-4xl md:text-6xl mb-4 text-end">
+          <p className="text-4xl md:text-6xl mb-8 md:mb-20 text-end">
             Come <br /> nasce il <br /> Bar Brughi
           </p>
           <p className="pe-12">

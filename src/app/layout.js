@@ -6,8 +6,6 @@ import Footer from "@/components/Footer";
 import Copyright from "@/components/Copyright";
 import NavbarAddress from "@/components/NavbarAddress";
 
-import "../app/globals.css";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -22,7 +20,7 @@ export default function RootLayout({ children }) {
         <div className="text-white">
           <NavbarAddress />
           <Navbar />
-          <main className="font-nunito">{children}</main>
+          <main className="font-anton">{children}</main>
           <Footer />
           <Copyright />
         </div>

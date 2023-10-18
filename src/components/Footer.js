@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="font-nunito bg-magenta w-full border-t border-black ">
+    <div className="bg-magenta w-full border-t border-black ">
       <div className="container mx-auto flex flex-wrap justify-between px-0">
         <div className="w-full hidden md:block md:w-1/2 lg:w-1/4 text-center border-b lg:border-b-0 lg:border-r border-black ">
           <h1 className="text-2xl md:text-3xl mb-2 py-3">Bar Brughi</h1>

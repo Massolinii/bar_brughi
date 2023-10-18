@@ -17,7 +17,7 @@ export default function Hero() {
           <p className="text-lg">prova prova</p>
           <br /> <br />
           <button
-            className="mt-4 bg-rose-950 hover:bg-rose-900 font-bold py-2 px-4 rounded"
+            className="mt-4 bg-magenta hover:bg-rose-900 font-bold py-2 px-4 rounded"
             onClick={() => {
               const nextSection = document.getElementById("next-section");
               nextSection.scrollIntoView({ behavior: "smooth" });

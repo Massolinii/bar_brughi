@@ -33,7 +33,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="font-nunito bg-magenta sticky top-0 z-50 w-full border-b-2 border-black ">
+    <div className="bg-magenta sticky top-0 z-50 w-full border-b-2 border-black ">
       <div className="container mx-auto flex justify-between items-center py-3">
         <div className="logo">
           <a href="/" className="no-underline text-white">
@@ -45,7 +45,7 @@ export default function Navbar() {
             <a
               key={index}
               href={link.path}
-              className={`border-animation py-3 px-4 relative overflow-hidden no-underline text-white text-lg`}
+              className={`border-animation py-2 px-3 relative overflow-hidden no-underline text-white text-lg`}
             >
               {link.name}
             </a>
