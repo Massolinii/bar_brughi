@@ -26,6 +26,7 @@ export default function Navbar() {
   }, []);
 
   const links = [
+    { name: "Home", path: "/" },
     { name: "Menù", path: "/servizi" },
     { name: "Chi siamo", path: "/chi-siamo" },
     { name: "Contatti", path: "/contatti" },
@@ -35,7 +36,7 @@ export default function Navbar() {
     <div className="font-nunito bg-magenta sticky top-0 z-50 w-full border-b-2 border-black ">
       <div className="container mx-auto flex justify-between items-center py-3">
         <div className="logo">
-          <a href="/" className="no-underline ">
+          <a href="/" className="no-underline text-white">
             <h1 className="text-2xl m-0">Bar Brughi</h1>
           </a>
         </div>
@@ -44,7 +45,7 @@ export default function Navbar() {
             <a
               key={index}
               href={link.path}
-              className={`border-animation py-3 px-4 relative overflow-hidden no-underline`}
+              className={`border-animation py-3 px-4 relative overflow-hidden no-underline text-white text-lg`}
             >
               {link.name}
             </a>
@@ -54,7 +55,7 @@ export default function Navbar() {
           <button
             onClick={toggleMenu}
             className={`text-4xl transform transition-transform duration-300 ${
-              isOpen ? "rotate-45" : ""
+              isOpen ? "rotate-135" : ""
             }`}
           >
             +
@@ -68,14 +69,14 @@ export default function Navbar() {
         >
           <div
             ref={modalRef}
-            className="flex flex-col space-y-4 p-5 bg-white bg-opacity-50"
+            className="flex flex-col space-y-4 p-5 bg-black bg-opacity-50"
             onClick={(e) => e.stopPropagation()}
           >
             {links.map((link, index) => (
               <a
                 key={index}
                 href={link.path}
-                className="text-4xl hover:text-gray-300 no-underline text-white"
+                className="text-5xl pb-5 no-underline text-white"
               >
                 {link.name}
               </a>

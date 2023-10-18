@@ -2,7 +2,7 @@ import SVGIcons from "@/assets/SvgIcons";
 
 export default function NavbarAddress() {
   return (
-    <div className="font-nunito bg-black text-white w-full">
+    <div className="font-nunito bg-black w-full">
       <div className="container mx-auto flex justify-between items-center p-2">
         <div className="flex items-center">
           <a
