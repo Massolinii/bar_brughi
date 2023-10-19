@@ -24,7 +24,7 @@ export default function HeroPresentation() {
           newStoolsArray = [0, 1, 0, 0, 1, 0, 0, 1, 0];
         } else {
           newStoolsArray = [
-            0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1,
+            0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1,
           ];
         }
 
@@ -66,10 +66,14 @@ export default function HeroPresentation() {
         </div>
         {/* Right col for text: col-span-12 on mobile, col-span-4 on md and above */}
         <div className="col-span-12 md:col-span-4 flex flex-col justify-center p-4">
-          <p className="text-4xl md:text-6xl mb-8 md:mb-20 text-end">
-            Come <br /> nasce il <br /> Bar Brughi
-          </p>
-          <p className="pe-12">
+          <div className="relative mb-8 md:mb-20 pe-2">
+            <div className="absolute top-0 bottom-0 right-0 w-60 border-r border-b"></div>
+            <p className="text-4xl md:text-6xl  text-end p-1 ">
+              Come <br /> nasce il <br /> <span className="">Bar Brughi</span>
+            </p>
+          </div>
+
+          <p className="p-2 pe-12 border-t border-l">
             Un giorno i nostri amici Kevini e Luchino si sono svegliati e si
             sono detti: come facciamo i soldi ? E quindi si sono aperti un bar.
             UALA! (flambè)

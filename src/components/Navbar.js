@@ -69,14 +69,14 @@ export default function Navbar() {
         >
           <div
             ref={modalRef}
-            className="flex flex-col space-y-4 p-5 bg-black bg-opacity-50"
+            className="flex flex-col space-y-4 p-2 bg-magenta bg-opacity-70 w-4/5"
             onClick={(e) => e.stopPropagation()}
           >
             {links.map((link, index) => (
               <a
                 key={index}
                 href={link.path}
-                className="text-5xl pb-5 no-underline text-white"
+                className="text-4xl py-3 px-2 no-underline text-white"
               >
                 {link.name}
               </a>
