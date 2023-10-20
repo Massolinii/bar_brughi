@@ -6,7 +6,12 @@ import Footer from "@/components/Footer";
 import Copyright from "@/components/Copyright";
 import NavbarAddress from "@/components/NavbarAddress";
 
-const inter = Inter({ subsets: ["latin"] });
+import { Quicksand } from "next/font/google";
+
+const inter = Quicksand({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export const metadata = {
   title: "Bar Brughi",
@@ -20,7 +25,7 @@ export default function RootLayout({ children }) {
         <div className="text-white">
           <NavbarAddress />
           <Navbar />
-          <main className="font-anton">{children}</main>
+          <main>{children}</main>
           <Footer />
           <Copyright />
         </div>
