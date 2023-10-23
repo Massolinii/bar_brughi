@@ -1,6 +1,6 @@
 import SVGIcons from "@/assets/SvgIcons";
 
-export default function HomeBanner({ image, text, link }) {
+export default function HomeBanner({ image, text, link, icon }) {
   return (
     <div
       className="relative  mx-auto w-full h-60 md:h-80 bg-overlay border-y-2 border-black "
@@ -18,13 +18,13 @@ export default function HomeBanner({ image, text, link }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <h2 className="text-2xl md:text-3xl mb-0">{text}</h2>
+            <h2 className="text-2xl md:text-3xl mb-0 font-bold">{text}</h2>
           </a>
         </div>
         <div>
           <a
             href={link}
-            className="text-white text-6xl md:text-8xl no-underline"
+            className="text-6xl"
             target="_blank"
             rel="noopener noreferrer"
           >

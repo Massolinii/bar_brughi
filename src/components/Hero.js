@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import image1 from "../images/bancone-prova.webp";
 
 export default function Hero() {
@@ -14,7 +15,9 @@ export default function Hero() {
       <div className="container mx-auto z-10 p-2">
         <div className="w-full text-left">
           <h1 className="text-4xl">Bar Brughi</h1>
-          <p className="text-lg">prova prova</p>
+          <p className="text-lg">
+            La risposta alla frase <br /> 'Dove dobbiamo andare stasera?'
+          </p>
           <br /> <br />
           <button
             className="mt-4 bg-magenta hover:bg-rose-900 font-bold py-2 px-4 rounded"

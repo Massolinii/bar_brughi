@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         transparent: "transparent",
-        magenta: "#4a1621",
+        magenta: "#a85566",
       },
       rotate: {
         135: "135deg",
