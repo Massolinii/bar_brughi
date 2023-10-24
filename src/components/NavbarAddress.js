@@ -13,7 +13,7 @@ export default function NavbarAddress() {
           >
             <SVGIcons.Instagram />
           </a>
-          <a href="mailto:example@brughi.com" className="mr-5">
+          <a href="mailto:brughibarsas@gmail.com" className="mr-5">
             <SVGIcons.Mail />
           </a>
           <a href="tel:+393271666666">

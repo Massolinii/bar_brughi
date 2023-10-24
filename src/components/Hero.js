@@ -16,7 +16,7 @@ export default function Hero() {
         <div className="w-full text-left">
           <h1 className="text-4xl">Bar Brughi</h1>
           <p className="text-lg">
-            La risposta alla frase <br /> 'Dove dobbiamo andare stasera?'
+            La risposta alla frase <br /> 'Dove andiamo stasera?'
           </p>
           <br /> <br />
           <button

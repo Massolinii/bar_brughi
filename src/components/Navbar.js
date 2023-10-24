@@ -2,6 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import "../styles/Navbar.css";
+import logo from "../images/logo.webp";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,9 +28,8 @@ export default function Navbar() {
 
   const links = [
     { name: "Home", path: "/" },
-    { name: "Menù", path: "/servizi" },
+    { name: "Menù", path: "/menu" },
     { name: "Chi siamo", path: "/chi-siamo" },
-    { name: "Contatti", path: "/contatti" },
   ];
 
   return (
@@ -37,7 +37,11 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center p-2">
         <div className="logo">
           <a href="/" className="no-underline text-white">
-            <h1 className="text-2xl m-0">Bar Brughi</h1>
+            <img
+              src={logo.src}
+              alt="Some description"
+              className="w-[60px] h-[60px]"
+            />
           </a>
         </div>
         <div className="hidden md:flex space-x-4">
