@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         transparent: "transparent",
         magenta: "#783140",
+        lightmag: "#735f63",
       },
       rotate: {
         135: "135deg",

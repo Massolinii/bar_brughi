@@ -1,5 +1,9 @@
-import Menu from "@/components/menu/Menu";
+import Menu from "@/components/menu/Caffetteria";
 
 export default function Page() {
-  return <Menu />;
+  return (
+    <main className="bg-black">
+      <Menu />
+    </main>
+  );
 }
