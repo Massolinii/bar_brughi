@@ -1,5 +1,5 @@
 import SVGIcons from "@/assets/SvgIcons";
-import spritzphoto from "../images/spritz-prova.webp";
+import spritzphoto from "../../images/spritz-prova.webp";
 
 import { useEffect, useState } from "react";
 

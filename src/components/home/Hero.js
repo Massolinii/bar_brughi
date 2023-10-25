@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import image1 from "../images/bancone-prova.webp";
+import image1 from "../../images/bancone-prova.webp";
 
 export default function Hero() {
   return (

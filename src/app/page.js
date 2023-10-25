@@ -1,7 +1,7 @@
 "use client";
-import HeroPresentation from "@/components/HeroPresentation";
-import Hero from "@/components/Hero";
-import HomeBanner from "@/components/HomeBanner";
+import HeroPresentation from "@/components/home/HeroPresentation";
+import Hero from "@/components/home/Hero";
+import HomeBanner from "@/components/home/HomeBanner";
 
 import aperitivoImage from "../images/aperitivo-prova.webp";
 import internoImage from "../images/interno-prova.webp";

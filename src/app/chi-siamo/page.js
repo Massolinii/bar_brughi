@@ -1,6 +1,6 @@
-import ChiSiamo from "@/components/ChiSiamo";
-import Contatti from "@/components/Contatti";
-import DoveSiamo from "@/components/DoveSiamo";
+import ChiSiamo from "@/components/chi-siamo/ChiSiamo";
+import Contatti from "@/components/chi-siamo/Contatti";
+import DoveSiamo from "@/components/chi-siamo/DoveSiamo";
 
 export default function Page() {
   return (

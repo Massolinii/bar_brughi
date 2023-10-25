@@ -1,5 +1,5 @@
 import React from "react";
-import fotochisiamo from "../images/interno-prova.webp";
+import fotochisiamo from "../../images/interno-prova.webp";
 
 export default function ChiSiamo() {
   return (
