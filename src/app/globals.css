@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Nunito+Sans:opsz,wght@6..12,500&family=Tilt+Neon&display=swap");
-
 main {
   background: black;
-}
-
-.font-anton {
-  font-family: Anton, sans-serif;
 }

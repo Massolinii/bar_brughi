@@ -15,19 +15,13 @@ export default function HomeBanner({ image, text, link, icon }) {
           <a
             href={link}
             className="text-white text-6xl md:text-8xl no-underline"
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className="text-2xl md:text-3xl mb-0 font-bold">{text}</h2>
           </a>
         </div>
         <div>
-          <a
-            href={link}
-            className="text-6xl"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={link} className="text-6xl" rel="noopener noreferrer">
             <SVGIcons.HomeBannerArrow />
           </a>
         </div>
