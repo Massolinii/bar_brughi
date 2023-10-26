@@ -1,60 +1,120 @@
 "use client";
 import { useState } from "react";
 
-export default function Food() {
-  const salato = [
+export default function Drink() {
+  const cocktails = [
     {
-      img: "/menu-pics/salato/panino.webp",
-      title: "Panino",
-      price: "5.00€",
+      img: "/menu-pics/cocktail/gin.webp",
+      title: "Gin Tonic / Lemon",
+      price: "6.00€",
     },
     {
-      img: "/menu-pics/salato/toast.webp",
-      title: "Toast",
-      price: "3.50€",
+      img: "/menu-pics/cocktail/ginpremium.webp",
+      title: "Gin Tonic / Lemon Premium",
+      price: "9.00€",
     },
     {
-      img: "/menu-pics/salato/toastfarcito.webp",
-      title: "Toast Farcito",
-      price: "4.00€",
+      img: "/menu-pics/cocktail/vodka.webp",
+      title: "Vodka Tonic / Lemon",
+      price: "6.00€",
     },
     {
-      img: "/menu-pics/salato/piadina.webp",
-      title: "Piadina",
-      price: "5.00€",
+      img: "/menu-pics/cocktail/negroni.webp",
+      title: "Negroni",
+      price: "6.00€",
     },
     {
-      img: "/menu-pics/salato/pizzamarghe.webp",
-      title: "Pizza Margherita",
-      price: "2.80€",
+      img: "/menu-pics/cocktail/americano.webp",
+      title: "Americano",
+      price: "6.00€",
     },
     {
-      img: "/menu-pics/salato/focaccia.webp",
-      title: "Focaccia",
-      price: "2.50€",
+      img: "/menu-pics/cocktail/sbagliato.webp",
+      title: "Sbagliato",
+      price: "6.00€",
+    },
+    {
+      img: "/menu-pics/cocktail/hugo.webp",
+      title: "Hugo",
+      price: "6.00€",
+    },
+    {
+      img: "/menu-pics/cocktail/mojito.webp",
+      title: "Mojito",
+      price: "6.00€",
+    },
+    {
+      img: "/menu-pics/cocktail/margarita.webp",
+      title: "Margarita",
+      price: "6.00€",
+    },
+    {
+      img: "/menu-pics/cocktail/longisland.webp",
+      title: "Long Island",
+      price: "6.00€",
+    },
+    {
+      img: "/menu-pics/cocktail/cubalibre.webp",
+      title: "Cuba Libre",
+      price: "6.00€",
+    },
+    {
+      img: "/menu-pics/cocktail/moscowmule.webp",
+      title: "Moscow Mule",
+      price: "6.00€",
     },
   ];
 
-  const dolce = [
+  const alcolici = [
     {
-      img: "/menu-pics/dolce/cornetto.webp",
-      title: "Brioches",
-      price: "1.30€",
+      img: "/menu-pics/alcolici/birraspina.webp",
+      title: "Birra alla Spina",
+      price: "4.00€",
     },
     {
-      img: "/menu-pics/dolce/crostatina.webp",
-      title: "Frolla / Crostatina",
-      price: "1.50€",
+      img: "/menu-pics/alcolici/birrabottiglia.webp",
+      title: "Birra in Bottiglia",
+      price: "2.80€",
     },
     {
-      img: "/menu-pics/dolce/torta.webp",
-      title: "Fetta di Torta",
-      price: "2.50€",
+      img: "/menu-pics/alcolici/tennets.webp",
+      title: "Tennet's / Ceres",
+      price: "4.00€",
     },
     {
-      img: "/menu-pics/dolce/piadinanutella.webp",
-      title: "Panino / Piadina Nutella",
+      img: "/menu-pics/alcolici/campari.webp",
+      title: "Campari Soda",
       price: "3.50€",
+    },
+    {
+      img: "/menu-pics/alcolici/spritz.webp",
+      title: "Spritz Campari / Aperol",
+      price: "5.00€",
+    },
+    {
+      img: "/menu-pics/alcolici/calicevino.webp",
+      title: "Calice Vino Bianco / Rosso",
+      price: "3.00€",
+    },
+    {
+      img: "/menu-pics/alcolici/spumante.webp",
+      title: "Spumante / Prosecco",
+      price: "3.50€",
+    },
+    {
+      img: "/menu-pics/alcolici/amari.webp",
+      title: "Amari",
+      price: "3.50€",
+    },
+    {
+      img: "/menu-pics/alcolici/grappa.webp",
+      title: "Grappa",
+      price: "4.00€",
+    },
+    {
+      img: "/menu-pics/alcolici/shot.webp",
+      title: "Shot",
+      price: "2.50€",
     },
   ];
 
@@ -69,7 +129,7 @@ export default function Food() {
         className="relative text-4xl p-2 mb-2 mx-auto block w-4/5 md:2/3 border transition duration-1000 ease-in-out font-bold"
         onClick={toggleMenu}
       >
-        Food
+        Drink
         <span
           className={`absolute text-3xl right-2 transition-transform duration-300 ease-in-out transform ${
             isOpen ? "rotate-180" : ""
@@ -82,10 +142,10 @@ export default function Food() {
         <>
           <div className="max-w-screen-md mx-auto">
             <h2 className="text-3xl bg-magenta mb-0 py-2 text-center text-bold text-2xl">
-              Salato
+              Cocktails
             </h2>
             <div className="grid grid-cols-1 gap-2 bg-lightmag">
-              {salato.map((product, index) => (
+              {cocktails.map((product, index) => (
                 <div
                   key={index}
                   className="flex items-center p-2 pb-0 border-t border-black"
@@ -112,7 +172,7 @@ export default function Food() {
               Dolce
             </h2>
             <div className="grid grid-cols-1 gap-2 bg-lightmag">
-              {dolce.map((product, index) => (
+              {alcolici.map((product, index) => (
                 <div
                   key={index}
                   className="flex items-center p-2 pb-0 border-t border-black"

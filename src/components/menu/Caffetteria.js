@@ -185,7 +185,7 @@ export default function Caffetteria() {
                   <img
                     src={product.img}
                     alt={product.title}
-                    className="w-1/3 max-w-[90px] max-h-[80px] rounded-full object-cover"
+                    className="w-1/3 max-w-[90px] max-h-[80px] rounded-full object-cover border-2"
                   />
                   <div className="flex flex-col w-2/3 justify-center ml-2">
                     <span className="text-left ms-3 text-xl md:text-2xl mb-1">
