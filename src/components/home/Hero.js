@@ -14,7 +14,7 @@ export default function Hero() {
       <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black via-blacktrans to-transparent"></div>
 
       <div className="container mx-auto z-10 p-2 flex flex-col items-center">
-        <div className="text-center border-2 border-white bg-stone-900 bg-opacity-50 p-8 m-4 mt-0">
+        <div className="text-center border-2 border-white bg-stone-900 bg-opacity-75 p-8 m-4 mt-0">
           <h1 className="text-7xl md:text-8xl pb-6 tracking-tighter">
             Al Brughi Bar
           </h1>

@@ -19,8 +19,8 @@ const myFont = localFont({
 });
 
 export const metadata = {
-  title: "Bar Brughi",
-  description: "Brughi Baaaaaar",
+  title: "Brughi Bar",
+  description: "Il miglior bar della provincia",
 };
 
 export default function RootLayout({ children }) {

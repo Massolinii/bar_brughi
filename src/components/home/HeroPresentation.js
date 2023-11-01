@@ -80,7 +80,7 @@ export default function HeroPresentation() {
             <div className="absolute top-0 bottom-0 right-0 w-60 border-magenta border-r-2 border-b-2"></div>
             <p className="text-5xl md:text-6xl  text-end p-2 mb-0 tracking-tighter">
               Come <br /> nasce il <br />{" "}
-              <span className="text-lightmag">Bar Brughi</span>
+              <span className="text-lightmag">Brughi Bar</span>
             </p>
           </div>
 
