@@ -11,13 +11,15 @@ export default function HomeBanner({ image, text, link, icon }) {
       }}
     >
       <div className="absolute container w-full inset-0 flex justify-between items-center p-0 py-2 px-2 z-10">
-        <div>
+        <div className="h-full flex items-center">
           <a
             href={link}
-            className="text-white text-6xl md:text-8xl no-underline"
+            className="text-white no-underline"
             rel="noopener noreferrer"
           >
-            <h2 className="text-3xl md:text-5xl mb-0 font-bold">{text}</h2>
+            <h2 className="inline-block text-3xl md:text-5xl mb-0 font-bold bg-magenta bg-opacity-75 p-2 border-2 border-darkmag">
+              {text}
+            </h2>
           </a>
         </div>
         <div>

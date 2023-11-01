@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <Hero />
-      <HomeBanner image={aperitivoImage} text="Menù" link="/menu" />
+      <HomeBanner image={aperitivoImage} text="Menu" link="/menu" />
       <HomeBanner image={internoImage} text="Chi Siamo" link="/chi-siamo" />
       <Spacer count={5} />
       <HeroPresentation />

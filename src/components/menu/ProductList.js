@@ -22,7 +22,7 @@ export default function ProductList({ title, products }) {
                 {product.title}
               </span>
               <div className="flex items-center justify-between">
-                <span className="text-gray-400 text-lg w-3/4 ms-3">
+                <span className="text-gray-400 w-3/4 ms-1">
                   {product.description}
                 </span>
                 {product.price && (

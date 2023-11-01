@@ -8,61 +8,74 @@ export default function Drink() {
       img: "/menu-pics/cocktail/gin.webp",
       title: "Gin Tonic / Lemon",
       price: "6.00€",
+      description: "Gin, Tonic/Lemon",
     },
     {
       img: "/menu-pics/cocktail/ginpremium.webp",
       title: "Gin Tonic / Lemon Premium",
       price: "9.00€",
+      description: "Gin, Premium Tonic/Lemon",
     },
     {
       img: "/menu-pics/cocktail/vodka.webp",
       title: "Vodka Tonic / Lemon",
       price: "6.00€",
+      description: "Vodka, Tonic/Lemon",
     },
     {
       img: "/menu-pics/cocktail/negroni.webp",
       title: "Negroni",
       price: "6.00€",
+      description: "Campari, Vermouth, Gin",
     },
     {
       img: "/menu-pics/cocktail/americano.webp",
       title: "Americano",
       price: "6.00€",
+      description: "Campari, Vermouth, Soda",
     },
     {
       img: "/menu-pics/cocktail/sbagliato.webp",
       title: "Sbagliato",
       price: "6.00€",
+      description: "Campari, Vermouth, Spumante",
     },
     {
       img: "/menu-pics/cocktail/hugo.webp",
       title: "Hugo",
       price: "6.00€",
+      description: "Prosecco, Sciroppo di sambuco, Soda",
     },
     {
       img: "/menu-pics/cocktail/mojito.webp",
       title: "Mojito",
       price: "6.00€",
+      description: "Rum bianco, Soda, Succo di lime, Zucchero di canna",
     },
     {
       img: "/menu-pics/cocktail/margarita.webp",
       title: "Margarita",
       price: "6.00€",
+      description: "Triple Sec, Tequila, Succo di lime",
     },
     {
       img: "/menu-pics/cocktail/longisland.webp",
       title: "Long Island",
       price: "6.00€",
+      description:
+        "Tequila, Gin, Triple Sec, Vodka, Rum Bianco, Succo di limone, Sciruppo di zucchero, Cola",
     },
     {
       img: "/menu-pics/cocktail/cubalibre.webp",
       title: "Cuba Libre",
       price: "6.00€",
+      description: "Rum bianco, Coca Cola, Lime",
     },
     {
       img: "/menu-pics/cocktail/moscowmule.webp",
       title: "Moscow Mule",
       price: "6.00€",
+      description: "Vodka, Ginger Beer, Succo di Lime",
     },
   ];
 
@@ -86,11 +99,13 @@ export default function Drink() {
       img: "/menu-pics/alcolici/campari.webp",
       title: "Campari Soda",
       price: "3.50€",
+      description: "Gin, Vermouth dry, Campari ",
     },
     {
       img: "/menu-pics/alcolici/spritz.webp",
       title: "Spritz Campari / Aperol",
       price: "5.00€",
+      description: "Prosecco, Campari/Aperol, Soda",
     },
     {
       img: "/menu-pics/alcolici/calicevino.webp",

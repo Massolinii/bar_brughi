@@ -3,16 +3,16 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="bg-magenta w-full border-t border-black ">
+    <div className="bg-magenta w-full border-t border-darkmag ">
       <div className="container mx-auto flex flex-wrap justify-between px-0">
-        <div className="w-full md:w-1/2 lg:w-1/3 text-center border-b lg:border-b-0 lg:border-r border-black">
+        <div className="w-full md:w-1/2 lg:w-1/3 text-center border-b lg:border-b-0 lg:border-r border-darkmag">
           <h2 className="text-2xl md:text-3xl font-bold py-3 mb-0">Orari</h2>
           <p>Dal Lunedì al Venerdì : 07:00-23:00</p>
           <p>Sabato e Domenica : 08:30-12:00 / 15:00-23:00</p>
           <p className="underline font-bold">Mercoledì chiuso!</p>
         </div>
 
-        <div className="w-full md:w-1/2 lg:w-1/3 text-center border-b lg:border-b-0 lg:border-r border-black">
+        <div className="w-full md:w-1/2 lg:w-1/3 text-center border-b lg:border-b-0 lg:border-r border-darkmag">
           <h2 className="text-2xl md:text-3xl font-bold py-3 mb-0">Contatti</h2>
           <p className="mb-0">Via Brughiera, 18</p>
           <p>20008 Bareggio (MI)</p>
@@ -31,7 +31,7 @@ export default function Footer() {
           </p>
         </div>
 
-        <div className="w-full md:w-1/2 lg:w-1/3 text-center border-b lg:border-b-0 border-black">
+        <div className="w-full md:w-1/2 lg:w-1/3 text-center border-b lg:border-b-0 border-darkmag">
           <h2 className="text-2xl md:text-3xl font-bold py-3 mb-0">Social</h2>
           <a
             href="https://www.instagram.com/brughi_bar/"
