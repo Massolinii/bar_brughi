@@ -50,7 +50,7 @@ export default function Contatti() {
         <h2 className="text-4xl md:text-6xl text-end pt-1 text-lightmag">
           Contatti
         </h2>
-        <h5 className="pt-20 text-center">
+        <h5 className="pt-20 text-center text-xl">
           Se vuoi prenotare un tavolo o organizzare un evento scrivici su
           WhatsApp, telefona o manda una mail!
         </h5>
