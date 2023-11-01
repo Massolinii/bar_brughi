@@ -11,24 +11,26 @@ export default function Hero() {
         backgroundPosition: "center",
       }}
     >
-      <div className="absolute inset-x-0 bottom-0 h-3/4 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-      <div className="container mx-auto z-10 p-2">
-        <div className="w-full text-center pt-40">
-          <h1 className="text-4xl pb-6">Bar Brughi</h1>
-          <p className="text-lg">
-            La risposta alla frase <br /> 'Dove andiamo stasera?'
+      <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black via-blacktrans to-transparent"></div>
+
+      <div className="container mx-auto z-10 p-2 flex flex-col items-center">
+        <div className="text-center border-2 border-white bg-stone-900 bg-opacity-50 p-8 m-4">
+          <h1 className="text-7xl md:text-8xl pb-6 tracking-tighter">
+            Al Brughi Bar
+          </h1>
+          <p className="text-2xl">
+            La risposta alla domanda <br /> 'Dove Andiamo Stasera?'
           </p>
-          <br /> <br />
-          <button
-            className="mt-4 bg-magenta hover:bg-rose-900 font-bold py-2 px-4 rounded"
-            onClick={() => {
-              const nextSection = document.getElementById("next-section");
-              nextSection.scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            Scopri di più.
-          </button>
         </div>
+        <button
+          className="border-2 border-darkmag bg-magenta hover:bg-darkmag font-bold py-2 px-4 rounded tracking-widest"
+          onClick={() => {
+            const nextSection = document.getElementById("next-section");
+            nextSection.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          Scopri di più.
+        </button>
       </div>
     </div>
   );

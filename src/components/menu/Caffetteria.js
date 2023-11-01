@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import ProductList from "./ProductList";
 
 export default function Caffetteria() {
   const caffe = [
@@ -131,74 +132,20 @@ export default function Caffetteria() {
   return (
     <div className="container mx-auto bg-black px-2 pb-3 pt-5">
       <button
-        className="relative text-4xl p-2 mb-2 mx-auto block w-4/5 md:2/3 border transition duration-1000 ease-in-out font-bold"
+        className="text-4xl p-2 mb-2 block w-full md:w-2/3 mx-auto border font-bold"
         onClick={toggleMenu}
       >
         Caffetteria
         <span
-          className={`absolute text-3xl right-2 transition-transform duration-300 ease-in-out transform ${
-            isOpen ? "rotate-180" : ""
-          }`}
+          className={`text-3xl right-2 transform ${isOpen ? "rotate-180" : ""}`}
         >
           ▼
         </span>
       </button>
       {isOpen && (
         <>
-          <div className="max-w-screen-md mx-auto">
-            <h2 className="text-3xl bg-magenta mb-0 py-2 text-center text-bold text-2xl">
-              Caffè e bevande calde
-            </h2>
-            <div className="grid grid-cols-1 gap-2 bg-lightmag">
-              {caffe.map((product, index) => (
-                <div
-                  key={index}
-                  className="flex items-center p-2 pb-0 border-t border-black"
-                >
-                  <img
-                    src={product.img}
-                    alt={product.title}
-                    className="w-1/3 max-w-[90px] max-h-[80px] rounded-full object-cover border-2"
-                  />
-                  <div className="flex flex-col w-2/3 justify-center ml-2">
-                    <span className="text-left ms-3 text-xl md:text-2xl mb-1">
-                      {product.title}
-                    </span>
-                    <span className="text-right md:text-xl">
-                      {product.price}
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="max-w-screen-md mx-auto mt-6">
-            <h2 className="text-3xl bg-magenta mb-0 py-2 text-center text-bold text-2xl">
-              Bibite
-            </h2>
-            <div className="grid grid-cols-1 gap-2 bg-lightmag">
-              {bibite.map((product, index) => (
-                <div
-                  key={index}
-                  className="flex items-center p-2 pb-0 border-t border-black"
-                >
-                  <img
-                    src={product.img}
-                    alt={product.title}
-                    className="w-1/3 max-w-[90px] max-h-[80px] rounded-full object-cover border-2"
-                  />
-                  <div className="flex flex-col w-2/3 justify-center ml-2">
-                    <span className="text-left ms-3 text-xl md:text-2xl mb-1">
-                      {product.title}
-                    </span>
-                    <span className="text-right md:text-xl">
-                      {product.price}
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+          <ProductList title="Caffè e Bevande Calde" products={caffe} />
+          <ProductList title="Bibite" products={bibite} />
         </>
       )}
     </div>

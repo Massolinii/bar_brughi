@@ -3,7 +3,7 @@ import SVGIcons from "@/assets/SvgIcons";
 export default function HomeBanner({ image, text, link, icon }) {
   return (
     <div
-      className="relative  mx-auto w-full h-60 md:h-80 bg-overlay border-y-2 border-black "
+      className="relative  mx-auto w-full h-60 md:h-80 bg-overlay border-y-2 border-black"
       style={{
         backgroundImage: `url(${image.src})`,
         backgroundSize: "cover",
@@ -17,7 +17,7 @@ export default function HomeBanner({ image, text, link, icon }) {
             className="text-white text-6xl md:text-8xl no-underline"
             rel="noopener noreferrer"
           >
-            <h2 className="text-2xl md:text-3xl mb-0 font-bold">{text}</h2>
+            <h2 className="text-3xl md:text-5xl mb-0 font-bold">{text}</h2>
           </a>
         </div>
         <div>

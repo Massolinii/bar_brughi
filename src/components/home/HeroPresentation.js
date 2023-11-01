@@ -1,7 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
 import SVGIcons from "@/assets/SvgIcons";
 import spritzphoto from "../../images/spritz-prova.webp";
+import aperitivophoto from "../../images/spritz-prova.webp";
 
 import { useEffect, useState } from "react";
+import Spacer from "@/assets/Spacer";
 
 export default function HeroPresentation() {
   const [stoolsArray, setStoolsArray] = useState([]);
@@ -42,14 +45,21 @@ export default function HeroPresentation() {
 
   return (
     <div className="bg-black w-full">
-      <div className="container mx-auto grid grid-cols-12 gap-4 p-0 md:my-8">
-        {/* Left col for image: col-span-12 on mobile, col-span-4 on md and above */}
-        <div className="col-span-12 md:col-span-4">
+      <Spacer count={3} />
+      <div className="container mx-auto grid grid-cols-12 gap-4 p-0 md:my-8 overflow-hidden">
+        {/* Left col for images: col-span-12 on mobile, col-span-4 on md and above */}
+        <div className="col-span-12 md:col-span-4 relative ">
           <img
             src={spritzphoto.src}
-            alt="Some description"
-            className="w-full"
+            alt="Foto spritz"
+            className="w-3/4 lg:w-full mx-auto"
           />
+          <img
+            src={aperitivophoto.src}
+            alt="Foto aperitivo"
+            className="w-3/4 lg:w-full absolute top-[250px] left-[80px]"
+          />
+          <Spacer count={10} />
         </div>
         {/* Middle col for SVG - hidden on mobile, col-span-4 on md and above */}
         <div className="hidden md:flex md:col-span-4 justify-center items-center">
@@ -67,16 +77,28 @@ export default function HeroPresentation() {
         {/* Right col for text: col-span-12 on mobile, col-span-4 on md and above */}
         <div className="col-span-12 md:col-span-4 flex flex-col justify-center p-4">
           <div className="relative mb-8 md:mb-20 pe-2">
-            <div className="absolute top-0 bottom-0 right-0 w-60 border-r border-b"></div>
-            <p className="text-4xl md:text-6xl  text-end p-1 ">
-              Come <br /> nasce il <br /> <span className="">Bar Brughi</span>
+            <div className="absolute top-0 bottom-0 right-0 w-60 border-magenta border-r-2 border-b-2"></div>
+            <p className="text-5xl md:text-6xl  text-end p-2 mb-0 tracking-tighter">
+              Come <br /> nasce il <br />{" "}
+              <span className="text-lightmag">Bar Brughi</span>
             </p>
           </div>
 
-          <p className="p-2 pe-12 border-t border-l">
-            Un giorno i nostri amici Kevini e Luchino si sono svegliati e si
-            sono detti: come facciamo i soldi ? E quindi si sono aperti un bar.
-            UALA! (flambè)
+          <p className="p-2 me-0 md:me-8 border-l-2 border-r-2 text-xl tracking-wider border-magenta">
+            La nascita di questo bar è frutto di una passione intensa per la
+            mixologia e l'arte dell'ospitalità.
+          </p>
+
+          <p className="p-2 me-3 md:me-16 border-l-2 border-r-2 text-xl tracking-wider border-magenta">
+            Abbiamo voluto creare un angolo raffinato ma allo stesso tempo
+            accogliente, in cui non solo troverai cocktail impeccabili e ottimi
+            aperitivi, ma anche un ambiente vibrante, perfetto per chi cerca
+            incontri stimolanti e serate indimenticabili.
+          </p>
+
+          <p className="p-2 me-6 md:me-24 border-l-2 border-b-2 border-r-2 text-xl tracking-wider border-magenta">
+            Nato da un sogno, il nostro bar è diventato il luogo ideale per chi
+            desidera vivere momenti speciali in buona compagnia.
           </p>
         </div>
         <br /> <br />

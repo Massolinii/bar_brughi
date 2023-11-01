@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={myFont.className}>
-        <div className="text-white">
+        <div className="text-white tracking-widest">
           <NavbarAddress />
           <Navbar />
           <main>{children}</main>
