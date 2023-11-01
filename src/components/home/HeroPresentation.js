@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import SVGIcons from "@/assets/SvgIcons";
 import spritzphoto from "../../images/spritz-prova.webp";
-import aperitivophoto from "../../images/spritz-prova.webp";
+import aperitivophoto from "../../images/aperitivo-prova.webp";
 
 import { useEffect, useState } from "react";
 import Spacer from "@/assets/Spacer";
@@ -84,19 +84,19 @@ export default function HeroPresentation() {
             </p>
           </div>
 
-          <p className="p-2 me-0 md:me-8 border-l-2 border-r-2 text-xl tracking-wider border-magenta">
+          <p className="p-2 me-0 md:me-8 border-l-2 text-xl tracking-wider border-magenta">
             La nascita di questo bar è frutto di una passione intensa per la
             mixologia e l'arte dell'ospitalità.
           </p>
 
-          <p className="p-2 me-3 md:me-16 border-l-2 border-r-2 text-xl tracking-wider border-magenta">
+          <p className="p-2 me-3 md:me-16 border-l-2 text-xl tracking-wider border-magenta">
             Abbiamo voluto creare un angolo raffinato ma allo stesso tempo
             accogliente, in cui non solo troverai cocktail impeccabili e ottimi
             aperitivi, ma anche un ambiente vibrante, perfetto per chi cerca
             incontri stimolanti e serate indimenticabili.
           </p>
 
-          <p className="p-2 me-6 md:me-24 border-l-2 border-b-2 border-r-2 text-xl tracking-wider border-magenta">
+          <p className="p-2 me-6 md:me-24 border-l-2 border-b-2 text-xl tracking-wider border-magenta">
             Nato da un sogno, il nostro bar è diventato il luogo ideale per chi
             desidera vivere momenti speciali in buona compagnia.
           </p>

@@ -4,7 +4,7 @@ export default function Contatti() {
   return (
     <div className="bg-black w-full pb-20">
       <div className="container mx-auto p-2 ">
-        <div className="border-b border-l ps-2 pb-2 grid grid-cols-1 md:grid-cols-3 gap-2 text-center">
+        <div className="border-b-2 border-l-2 border-magenta ps-2 pb-2 grid grid-cols-1 md:grid-cols-3 gap-2 text-center">
           <div className="bg-magenta border border-stone-300 h-[200px] flex flex-col items-center justify-center">
             <h3 className="text-lg mb-2 text-3xl">TELEFONO</h3>
 
@@ -47,7 +47,9 @@ export default function Contatti() {
           </div>
         </div>
 
-        <h2 className="text-4xl md:text-6xl text-end pt-1">Contatti</h2>
+        <h2 className="text-4xl md:text-6xl text-end pt-1 text-lightmag">
+          Contatti
+        </h2>
         <h5 className="pt-20 text-center">
           Se vuoi prenotare un tavolo o organizzare un evento scrivici su
           WhatsApp, telefona o manda una mail!
