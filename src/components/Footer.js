@@ -12,7 +12,7 @@ export default function Footer() {
           <p className="underline font-bold">Mercoledì chiuso!</p>
         </div>
 
-        <div className="w-full md:w-1/2 lg:w-1/3 text-center border-b lg:border-b-0 lg:border-r border-darkmag">
+        <div className="w-full md:w-1/2 lg:w-1/3 text-center border-b lg:border-b-0 lg:border-r border-darkmag pb-1">
           <h2 className="text-2xl md:text-3xl font-bold py-3 mb-0">Contatti</h2>
           <p className="mb-0">Via Brughiera, 18</p>
           <p>20008 Bareggio (MI)</p>
