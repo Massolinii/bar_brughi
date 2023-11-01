@@ -44,7 +44,7 @@ export default function HeroPresentation() {
   }, []);
 
   return (
-    <div className="bg-black w-full">
+    <div className="bg-black w-full" id="hero-presentation-section">
       <Spacer count={3} />
       <div className="container mx-auto grid grid-cols-12 gap-4 p-0 md:my-8 overflow-hidden">
         {/* Left col for images: col-span-12 on mobile, col-span-4 on md and above */}
