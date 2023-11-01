@@ -16,7 +16,7 @@ export default function NavbarAddress() {
           <a href="mailto:brughibarsas@gmail.com" className="mr-5">
             <SVGIcons.Mail />
           </a>
-          <a href="tel:+393271666666">
+          <a href="tel:+393450913688">
             <SVGIcons.Phone />
           </a>
         </div>

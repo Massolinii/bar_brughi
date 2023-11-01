@@ -58,8 +58,8 @@ export default function Navbar() {
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className={`text-4xl transform transition-transform duration-300 ${
-              isOpen ? "rotate-135" : ""
+            className={`text-4xl transform transition-transform duration-500 ${
+              isOpen ? "rotate-315" : ""
             }`}
           >
             +

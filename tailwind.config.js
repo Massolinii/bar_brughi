@@ -13,12 +13,7 @@ module.exports = {
         lightmag: "#735f63",
       },
       rotate: {
-        135: "135deg",
-      },
-      fontFamily: {
-        nunito: ['"Nunito Sans"', "sans-serif"],
-        tilt: ['"Tilt Neon"', "cursive"],
-        anton: ["Anton", "sans-serif"],
+        315: "315deg",
       },
     },
   },

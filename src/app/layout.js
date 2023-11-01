@@ -1,16 +1,21 @@
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Inter } from "next/font/google";
+
 import Footer from "@/components/Footer";
 import Copyright from "@/components/Copyright";
 import NavbarAddress from "@/components/NavbarAddress";
 
-import { Quicksand } from "next/font/google";
+import localFont from "next/font/local";
 
-const inter = Quicksand({
+/* const font = BarBooth({
   subsets: ["latin"],
   weight: "400",
+}); */
+
+const myFont = localFont({
+  src: "./barbooth.ttf",
+  display: "swap",
 });
 
 export const metadata = {
@@ -21,7 +26,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className} suppressHydrationWarning={true}>
+      <body className={myFont.className}>
         <div className="text-white">
           <NavbarAddress />
           <Navbar />
