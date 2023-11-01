@@ -18,12 +18,19 @@ export default function ProductList({ title, products }) {
               className="w-1/3 max-w-[90px] max-h-[80px] rounded-full object-cover border-2 brightness-90"
             />
             <div className="flex flex-col w-2/3 justify-center ml-2">
-              <span className="text-left ms-3 text-2xl md:text-3xl mb-1 tracking-normal">
+              <span className="text-left ms-1 text-2xl md:text-3xl mb-1 tracking-normal">
                 {product.title}
               </span>
-              <span className="text-right md:text-xl tracking-wide">
-                {product.price}
-              </span>
+              <div className="flex items-center justify-between">
+                <span className="text-gray-400 text-lg w-3/4 ms-3">
+                  {product.description}
+                </span>
+                {product.price && (
+                  <span className="text-right md:text-xl tracking-wide w-1/4">
+                    {product.price}
+                  </span>
+                )}
+              </div>
             </div>
           </div>
         ))}

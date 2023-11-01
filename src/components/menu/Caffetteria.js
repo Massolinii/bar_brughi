@@ -96,6 +96,7 @@ export default function Caffetteria() {
       img: "/menu-pics/bibite/cola.webp",
       title: "Bibite",
       price: "2.50€",
+      description: "Coca Cola, Fanta, Pepsi",
     },
     {
       img: "/menu-pics/bibite/redbull.webp",
