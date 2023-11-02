@@ -8,8 +8,8 @@ import NavbarAddress from "@/components/NavbarAddress";
 
 import localFont from "next/font/local";
 
-const barbooth = localFont({
-  src: "./barbooth.ttf",
+const bonnie = localFont({
+  src: "./bonnie.ttf",
   display: "swap",
 });
 
@@ -21,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={barbooth.className}>
+      <body className={bonnie.className}>
         <div className="text-white tracking-widest">
           <NavbarAddress />
           <Navbar />

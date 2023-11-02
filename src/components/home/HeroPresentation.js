@@ -51,47 +51,46 @@ export default function HeroPresentation() {
   }, []);
 
   return (
-    <div className={novaMono.className}>
-      <div className="bg-black w-full" id="hero-presentation-section">
-        <Spacer count={3} />
-        <div className="container mx-auto grid grid-cols-12 gap-4 p-0 md:my-8 overflow-hidden">
-          {/* Left col for images: col-span-12 on mobile, col-span-4 on md and above */}
-          <div className="col-span-12 md:col-span-4 relative ">
-            <img
-              src={spritzphoto.src}
-              alt="Foto spritz"
-              className="w-3/4 lg:w-full mx-auto"
+    <div className="bg-black w-full" id="hero-presentation-section">
+      <Spacer count={3} />
+      <div className="container mx-auto grid grid-cols-12 gap-4 p-0 md:my-8 overflow-hidden">
+        {/* Left col for images: col-span-12 on mobile, col-span-4 on md and above */}
+        <div className="col-span-12 md:col-span-4 relative ">
+          <img
+            src={spritzphoto.src}
+            alt="Foto spritz"
+            className="w-3/4 lg:w-full mx-auto"
+          />
+          <img
+            src={aperitivophoto.src}
+            alt="Foto aperitivo"
+            className="w-3/4 lg:w-full absolute top-[250px] left-[80px]"
+          />
+          <Spacer count={10} />
+        </div>
+        {/* Middle col for SVG - hidden on mobile, col-span-4 on md and above */}
+        <div className="hidden md:flex md:col-span-4 justify-center items-center">
+          <svg height="100" width="100">
+            <circle
+              cx="50"
+              cy="50"
+              r="40"
+              stroke="white"
+              strokeWidth="3"
+              fill="black"
             />
-            <img
-              src={aperitivophoto.src}
-              alt="Foto aperitivo"
-              className="w-3/4 lg:w-full absolute top-[250px] left-[80px]"
-            />
-            <Spacer count={10} />
+          </svg>
+        </div>
+        {/* Right col for text: col-span-12 on mobile, col-span-4 on md and above */}
+        <div className="col-span-12 md:col-span-4 flex flex-col justify-center p-4">
+          <div className="relative mb-8 md:mb-20 pe-2">
+            <div className="absolute top-0 bottom-0 right-0 w-60 border-magenta border-r-2 border-b-2"></div>
+            <p className="text-5xl md:text-6xl  text-end p-2 mb-0 tracking-tighter">
+              Come <br /> nasce il <br />{" "}
+              <span className="text-lightmag">Brughi Bar</span>
+            </p>
           </div>
-          {/* Middle col for SVG - hidden on mobile, col-span-4 on md and above */}
-          <div className="hidden md:flex md:col-span-4 justify-center items-center">
-            <svg height="100" width="100">
-              <circle
-                cx="50"
-                cy="50"
-                r="40"
-                stroke="white"
-                strokeWidth="3"
-                fill="black"
-              />
-            </svg>
-          </div>
-          {/* Right col for text: col-span-12 on mobile, col-span-4 on md and above */}
-          <div className="col-span-12 md:col-span-4 flex flex-col justify-center p-4">
-            <div className="relative mb-8 md:mb-20 pe-2">
-              <div className="absolute top-0 bottom-0 right-0 w-60 border-magenta border-r-2 border-b-2"></div>
-              <p className="text-5xl md:text-6xl  text-end p-2 mb-0 tracking-tighter">
-                Come <br /> nasce il <br />{" "}
-                <span className="text-lightmag">Brughi Bar</span>
-              </p>
-            </div>
-
+          <div className={novaMono.className}>
             <p className="p-2 me-0 md:me-8 border-l-2 text-xl tracking-wider border-magenta">
               La nascita di questo bar è frutto di una passione intensa per la
               mixologia e l'arte dell'ospitalità.
@@ -101,12 +100,12 @@ export default function HeroPresentation() {
               Abbiamo voluto creare un angolo raffinato ma allo stesso tempo
               accogliente, in cui non solo troverai cocktail impeccabili e
               ottimi aperitivi, ma anche un ambiente vibrante, perfetto per chi
-              cerca incontri stimolanti e serate indimenticabili.
+              cerca incontri e serate indimenticabili.
             </p>
 
             <p className="p-2 me-6 md:me-24 border-l-2 border-b-2 text-xl tracking-wider border-magenta">
-              Nato da un sogno, il nostro bar è diventato il luogo ideale per
-              chi desidera vivere momenti speciali in buona compagnia.
+              Nato da un sogno, siamo il luogo ideale per vivere momenti
+              speciali in buona compagnia.
             </p>
           </div>
           <br /> <br />
