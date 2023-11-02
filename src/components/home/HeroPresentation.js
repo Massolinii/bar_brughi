@@ -2,6 +2,7 @@
 import SVGIcons from "@/assets/SvgIcons";
 import spritzphoto from "../../images/spritz-prova.webp";
 import aperitivophoto from "../../images/aperitivo-2-prova.webp";
+import shotphoto from "../../images/shot-prova.webp";
 
 import { useEffect, useState } from "react";
 import Spacer from "@/assets/Spacer";
@@ -50,12 +51,19 @@ export default function HeroPresentation() {
       <Spacer count={3} />
       <div className="container mx-auto grid grid-cols-12 gap-4 p-0 md:my-8 overflow-hidden">
         {/* Left col for images: col-span-12 on mobile, col-span-4 on md and above */}
-        <div className="col-span-6 lg:col-span-4 relative ">
+        <div className="col-span-12 md:col-span-6 lg:col-span-4 relative ">
           <img
             src={spritzphoto.src}
             alt="Foto spritz"
             className="w-3/4 lg:w-full mx-auto"
           />
+
+          <img
+            src={shotphoto.src}
+            alt="Foto aperitivo"
+            className="w-2/4 h-1/2 md:w-3/4 absolute top-[340px] left-[20px]"
+          />
+
           <img
             src={aperitivophoto.src}
             alt="Foto aperitivo"
@@ -77,7 +85,7 @@ export default function HeroPresentation() {
           </svg>
         </div>
         {/* Right col for text: col-span-12 on mobile, col-span-4 on md and above */}
-        <div className="col-span-6 lg:col-span-4 flex flex-col justify-center p-4">
+        <div className="col-span-12 md:col-span-6 lg:col-span-4 flex flex-col justify-center p-4">
           <div className="relative mb-8 md:mb-20 pe-2">
             <div className="absolute top-0 bottom-0 right-0 w-60 border-magenta border-r-2 border-b-2"></div>
             <p className="text-5xl md:text-6xl  text-end p-2 mb-0 tracking-tighter">

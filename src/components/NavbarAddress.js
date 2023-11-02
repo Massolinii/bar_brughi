@@ -20,7 +20,7 @@ export default function NavbarAddress() {
             <SVGIcons.Phone />
           </a>
         </div>
-        <div className="flex items-center text-sm">
+        <div className="flex items-center text-xs sm:text-sm">
           <p className="m-0">Via Brughiera 18, Bareggio (MI)</p>
         </div>
       </div>
