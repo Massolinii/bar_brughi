@@ -9,7 +9,7 @@ export default function DoveSiamo() {
         </p>
         <div className="relative">
           <div className={cairo.className}>
-            <p className="p-2 mb-4 border-r-2 border-magenta text-end">
+            <p className="p-2 mb-4 border-r-2 border-magenta text-end text-lg">
               Via Brughiera, 18 - Bareggio (MI) 20008
             </p>
           </div>

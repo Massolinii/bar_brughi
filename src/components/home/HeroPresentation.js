@@ -85,6 +85,7 @@ export default function HeroPresentation() {
               <span className="text-lightmag">Brughi Bar</span>
             </p>
           </div>
+
           <div className={cairo.className}>
             <p className="p-2 me-0 md:me-8 border-l-2 text-xl tracking-wider border-magenta">
               La nascita di questo bar è frutto di una passione intensa per la
@@ -95,16 +96,25 @@ export default function HeroPresentation() {
               Abbiamo voluto creare un angolo raffinato ma allo stesso tempo
               accogliente, in cui non solo troverai cocktail impeccabili e
               ottimi aperitivi, ma anche un ambiente vibrante, perfetto per chi
-              cerca incontri e serate indimenticabili.
+              cerca incontri stimolanti e serate indimenticabili.
             </p>
 
             <p className="p-2 me-6 md:me-24 border-l-2 border-b-2 text-xl tracking-wider border-magenta">
-              Nato da un sogno, siamo il luogo ideale per vivere momenti
-              speciali in buona compagnia.
+              Nato da un sogno, il nostro bar è diventato il luogo ideale per
+              chi desidera vivere momenti speciali in buona compagnia.
             </p>
           </div>
-          <br /> <br />
         </div>
+        <br /> <br />
+      </div>
+      <div className="flex">
+        {stoolsArray.map((isBroken, index) =>
+          isBroken ? (
+            <SVGIcons.StoolBroken key={index} />
+          ) : (
+            <SVGIcons.Stool key={index} />
+          )
+        )}
       </div>
     </div>
   );

@@ -4,7 +4,17 @@
 
 main {
   background: black;
+  background-image: radial-gradient(black 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
   min-height: 60vh;
+}
+
+.dark-bg {
+  background: black;
+  background-image: radial-gradient(black 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
 }
 
 .grad-magenta {
