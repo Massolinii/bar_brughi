@@ -23,7 +23,7 @@ export default function Hero() {
           </p>
         </div>
         <button
-          className="border-2 border-darkmag bg-magenta hover:bg-darkmag font-bold py-2 px-4 rounded tracking-widest"
+          className="border-2 border-darkmag bg-magenta hover:bg-darkmag hover:border-magenta font-bold py-2 px-4 rounded tracking-widest"
           onClick={() => {
             const heroPresentationSection = document.getElementById(
               "hero-presentation-section"

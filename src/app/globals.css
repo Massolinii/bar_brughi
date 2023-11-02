@@ -6,3 +6,7 @@ main {
   background: black;
   min-height: 60vh;
 }
+
+.grad-magenta {
+  background: linear-gradient(20deg, #632734 25%, #852748 50%, #632734 75%);
+}

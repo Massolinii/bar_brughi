@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="bg-magenta w-full border-t border-darkmag ">
+    <div className="grad-magenta w-full border-t border-darkmag ">
       <div className="container mx-auto flex flex-wrap justify-between px-0">
         <div className="w-full md:w-1/2 lg:w-1/3 text-center border-b lg:border-b-0 lg:border-r border-darkmag pb-1">
           <h2 className="text-2xl md:text-3xl font-bold py-3 mb-0">Orari</h2>

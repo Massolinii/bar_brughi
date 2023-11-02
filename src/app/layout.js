@@ -8,12 +8,7 @@ import NavbarAddress from "@/components/NavbarAddress";
 
 import localFont from "next/font/local";
 
-/* const font = BarBooth({
-  subsets: ["latin"],
-  weight: "400",
-}); */
-
-const myFont = localFont({
+const barbooth = localFont({
   src: "./barbooth.ttf",
   display: "swap",
 });
@@ -26,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={myFont.className}>
+      <body className={barbooth.className}>
         <div className="text-white tracking-widest">
           <NavbarAddress />
           <Navbar />
