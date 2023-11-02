@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import { novaMono } from "../home/HeroPresentation";
+import { cairo } from "@/assets/FontExport";
 
 export default function ProductList({ title, products }) {
   return (
-    <div className={novaMono.className}>
+    <div className={cairo.className}>
       <div className="max-w-screen-md mx-auto">
         <h2 className="text-3xl bg-magenta mb-0 py-1 text-center text-bold text-2xl tracking-wide">
           {title}

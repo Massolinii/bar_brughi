@@ -6,12 +6,7 @@ import aperitivophoto from "../../images/aperitivo-prova.webp";
 import { useEffect, useState } from "react";
 import Spacer from "@/assets/Spacer";
 
-import { Cairo } from "next/font/google";
-
-export const novaMono = Cairo({
-  weight: "400",
-  subsets: ["latin"],
-});
+import { cairo } from "@/assets/FontExport";
 
 export default function HeroPresentation() {
   const [stoolsArray, setStoolsArray] = useState([]);
@@ -90,7 +85,7 @@ export default function HeroPresentation() {
               <span className="text-lightmag">Brughi Bar</span>
             </p>
           </div>
-          <div className={novaMono.className}>
+          <div className={cairo.className}>
             <p className="p-2 me-0 md:me-8 border-l-2 text-xl tracking-wider border-magenta">
               La nascita di questo bar è frutto di una passione intensa per la
               mixologia e l'arte dell'ospitalità.
@@ -109,15 +104,6 @@ export default function HeroPresentation() {
             </p>
           </div>
           <br /> <br />
-        </div>
-        <div className="flex">
-          {stoolsArray.map((isBroken, index) =>
-            isBroken ? (
-              <SVGIcons.StoolBroken key={index} />
-            ) : (
-              <SVGIcons.Stool key={index} />
-            )
-          )}
         </div>
       </div>
     </div>

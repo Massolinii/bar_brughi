@@ -1,3 +1,4 @@
+"use client";
 import Caffetteria from "@/components/menu/Caffetteria";
 import Drink from "@/components/menu/Drink";
 import Food from "@/components/menu/Food";

@@ -6,12 +6,7 @@ import Footer from "@/components/Footer";
 import Copyright from "@/components/Copyright";
 import NavbarAddress from "@/components/NavbarAddress";
 
-import localFont from "next/font/local";
-
-const bonnie = localFont({
-  src: "./bonnie.ttf",
-  display: "swap",
-});
+import { bonnie } from "@/assets/FontExport";
 
 export const metadata = {
   title: "Brughi Bar",

@@ -1,3 +1,5 @@
+import { cairo } from "@/assets/FontExport";
+
 export default function DoveSiamo() {
   return (
     <div className="bg-black w-full pb-12">
@@ -6,9 +8,11 @@ export default function DoveSiamo() {
           Dove Siamo
         </p>
         <div className="relative">
-          <p className="p-2 mb-4 border-r-2 border-magenta text-end">
-            Via Brughiera, 18 - Bareggio (MI) 20008
-          </p>
+          <div className={cairo.className}>
+            <p className="p-2 mb-4 border-r-2 border-magenta text-end">
+              Via Brughiera, 18 - Bareggio (MI) 20008
+            </p>
+          </div>
           <div className="absolute top-0 left-1/4 w-3/4 md:left-1/2 md:w-1/2 border-t-2 border-magenta"></div>
         </div>
 

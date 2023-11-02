@@ -18,7 +18,7 @@ export default function Hero() {
           <h1 className="text-6xl md:text-8xl pb-6 tracking-tighter">
             Al Brughi Bar
           </h1>
-          <p className="text-2xl">
+          <p className="text-2xl mb-0">
             La risposta alla domanda <br /> 'Dove Andiamo Stasera?'
           </p>
         </div>

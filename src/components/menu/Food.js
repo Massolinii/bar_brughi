@@ -1,4 +1,3 @@
-"use client";
 import { useState } from "react";
 import ProductList from "./ProductList";
 
@@ -65,7 +64,7 @@ export default function Food() {
   };
 
   return (
-    <div className="container mx-auto bg-black px-2 pb-3 pt-5">
+    <div className="container mx-auto bg-black px-2 px-2 py-4">
       <button
         className="text-4xl p-2 mb-2 block w-full md:w-2/3 mx-auto border font-bold"
         onClick={toggleMenu}
