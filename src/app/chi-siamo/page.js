@@ -5,10 +5,15 @@ import DoveSiamo from "@/components/chi-siamo/DoveSiamo";
 
 export default function Page() {
   return (
-    <div className="pt-10 mb:pt-20">
-      <ChiSiamo />
-      <DoveSiamo />
-      <Contatti />
-    </div>
+    <main>
+      <h1 className="text-center py-4 text-6xl lg:text-8xl border-b">
+        Chi Siamo
+      </h1>
+      <div className="pt-10 mb:pt-20 dotted-background">
+        <ChiSiamo />
+        <DoveSiamo />
+        <Contatti />
+      </div>
+    </main>
   );
 }

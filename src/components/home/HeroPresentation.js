@@ -55,19 +55,19 @@ export default function HeroPresentation() {
           <img
             src={spritzphoto.src}
             alt="Foto spritz"
-            className="w-3/4 lg:w-full mx-auto border rounded-sm border-gray-500"
+            className="w-3/4 lg:w-full mx-auto border-1 rounded-sm border-darkmag"
           />
 
           <img
             src={shotphoto.src}
             alt="Foto aperitivo"
-            className="w-2/4 h-1/2 md:w-3/4 absolute top-[340px] left-[20px] border rounded-sm border-gray-500"
+            className="w-2/4 h-1/2 md:w-3/4 absolute top-[340px] left-[20px] border-1 rounded-sm border-darkmag"
           />
 
           <img
             src={aperitivophoto.src}
             alt="Foto aperitivo"
-            className="w-3/4 lg:w-full absolute top-[250px] left-[80px] border rounded-sm border-gray-500"
+            className="w-3/4 lg:w-full absolute top-[250px] left-[80px] border-1 rounded-sm border-darkmag"
           />
           <Spacer count={10} />
         </div>

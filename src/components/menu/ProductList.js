@@ -9,7 +9,7 @@ export default function ProductList({ title, products }) {
         <h2 className="text-3xl bg-magenta mb-0 py-1 text-center text-bold text-2xl tracking-wide">
           {title}
         </h2>
-        <div className="grid grid-cols-1 bg-darkmag bg-opacity-75">
+        <div className="grid grid-cols-1 bg-darkmag ">
           {products.map((product) => (
             <div
               key={product.id}

@@ -2,7 +2,7 @@ import SVGIcons from "@/assets/SvgIcons";
 
 export default function Contatti() {
   return (
-    <div className="bg-black w-full pb-20">
+    <div className=" w-full pb-20">
       <div className="container mx-auto p-2 ">
         <div className="border-b-2 border-l-2 border-magenta ps-2 pb-2 grid grid-cols-1 md:grid-cols-3 gap-2 text-center">
           <div className="bg-magenta border border-stone-300 h-[200px] flex flex-col items-center justify-center">

@@ -4,9 +4,6 @@
 
 main {
   background: black;
-  background-image: radial-gradient(black 1px, transparent 0);
-  background-size: 40px 40px;
-  background-position: -19px -19px;
   min-height: 60vh;
 }
 
@@ -16,8 +13,8 @@ main {
 
 .dotted-background {
   background-color: #000;
-  background-image: radial-gradient(circle, #30181d 1px, transparent 1px);
-  background-size: 15px 15px;
+  background-image: radial-gradient(circle, #30181d9f 1px, transparent 2px);
+  background-size: 20px 20px;
 }
 
 .home-banner-arrow {

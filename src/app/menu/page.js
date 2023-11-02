@@ -5,13 +5,15 @@ import Food from "@/components/menu/Food";
 
 export default function Page() {
   return (
-    <main className="bg-black">
+    <main>
       <h1 className="text-center py-4 text-6xl lg:text-8xl border-b">
         Il Nostro Menù
       </h1>
-      <Caffetteria />
-      <Food />
-      <Drink />
+      <div className="dotted-background">
+        <Caffetteria />
+        <Food />
+        <Drink />
+      </div>
     </main>
   );
 }

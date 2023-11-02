@@ -143,9 +143,9 @@ export default function Drink() {
   };
 
   return (
-    <div className="container mx-auto bg-black px-2 py-4">
+    <div className="container mx-auto px-2 py-4">
       <button
-        className="text-4xl p-2 mb-2 block w-full md:w-2/3 mx-auto border font-bold"
+        className="text-4xl p-2 mb-2 block w-full md:w-2/3 mx-auto border-y-2 border-x-8 font-bold bg-black"
         onClick={toggleMenu}
       >
         Drink
