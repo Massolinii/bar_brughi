@@ -91,7 +91,7 @@ export default function Drink() {
     },
     {
       img: "/menu-pics/alcolici/tennets.webp",
-      title: "Tennet's / Ceres",
+      title: "Tennent's / Ceres",
       price: "4.00€",
     },
     {

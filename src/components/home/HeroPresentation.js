@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import SVGIcons from "@/assets/SvgIcons";
 import spritzphoto from "../../images/spritz-prova.webp";
-import aperitivophoto from "../../images/aperitivo-prova.webp";
+import aperitivophoto from "../../images/aperitivo-2-prova.webp";
 
 import { useEffect, useState } from "react";
 import Spacer from "@/assets/Spacer";
@@ -96,12 +96,12 @@ export default function HeroPresentation() {
               Abbiamo voluto creare un angolo raffinato ma allo stesso tempo
               accogliente, in cui non solo troverai cocktail impeccabili e
               ottimi aperitivi, ma anche un ambiente vibrante, perfetto per chi
-              cerca incontri stimolanti e serate indimenticabili.
+              cerca incontri e serate indimenticabili.
             </p>
 
             <p className="p-2 me-6 md:me-24 border-l-2 border-b-2 text-xl tracking-wider border-magenta">
-              Nato da un sogno, il nostro bar è diventato il luogo ideale per
-              chi desidera vivere momenti speciali in buona compagnia.
+              Nato da un sogno, siamo il luogo ideale per vivere momenti
+              speciali in buona compagnia.
             </p>
           </div>
         </div>

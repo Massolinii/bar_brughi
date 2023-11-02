@@ -10,13 +10,6 @@ main {
   min-height: 60vh;
 }
 
-.dark-bg {
-  background: black;
-  background-image: radial-gradient(black 1px, transparent 0);
-  background-size: 40px 40px;
-  background-position: -19px -19px;
-}
-
 .grad-magenta {
   background: linear-gradient(20deg, #632734 25%, #852748 50%, #632734 75%);
 }
