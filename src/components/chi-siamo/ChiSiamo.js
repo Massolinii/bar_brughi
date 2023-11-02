@@ -5,7 +5,7 @@ import { cairo } from "@/assets/FontExport";
 
 export default function ChiSiamo() {
   return (
-    <div className="bg-black w-full mb-20">
+    <div className="bg-black w-full mb-8 lg:mb-20">
       <div className="container mx-auto grid grid-cols-12 gap-4 p-2">
         <div className="col-span-12 md:col-span-6 flex flex-col justify-center">
           <h2 className="text-4xl md:text-6xl text-end mb-2 md:mb-4 text-lightmag">

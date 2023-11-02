@@ -50,7 +50,7 @@ export default function HeroPresentation() {
       <Spacer count={3} />
       <div className="container mx-auto grid grid-cols-12 gap-4 p-0 md:my-8 overflow-hidden">
         {/* Left col for images: col-span-12 on mobile, col-span-4 on md and above */}
-        <div className="col-span-12 md:col-span-4 relative ">
+        <div className="col-span-6 lg:col-span-4 relative ">
           <img
             src={spritzphoto.src}
             alt="Foto spritz"
@@ -64,7 +64,7 @@ export default function HeroPresentation() {
           <Spacer count={10} />
         </div>
         {/* Middle col for SVG - hidden on mobile, col-span-4 on md and above */}
-        <div className="hidden md:flex md:col-span-4 justify-center items-center">
+        <div className="hidden lg:flex lg:col-span-4 justify-center items-center">
           <svg height="100" width="100">
             <circle
               cx="50"
@@ -77,7 +77,7 @@ export default function HeroPresentation() {
           </svg>
         </div>
         {/* Right col for text: col-span-12 on mobile, col-span-4 on md and above */}
-        <div className="col-span-12 md:col-span-4 flex flex-col justify-center p-4">
+        <div className="col-span-6 lg:col-span-4 flex flex-col justify-center p-4">
           <div className="relative mb-8 md:mb-20 pe-2">
             <div className="absolute top-0 bottom-0 right-0 w-60 border-magenta border-r-2 border-b-2"></div>
             <p className="text-5xl md:text-6xl  text-end p-2 mb-0 tracking-tighter">

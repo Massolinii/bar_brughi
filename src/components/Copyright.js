@@ -8,7 +8,7 @@ export default function Copyright() {
           </p>
         </div>
         <div>
-          <p className="m-0">Partita Iva: 00000000000</p>
+          <p className="m-0">Partita Iva: 12782700962</p>
         </div>
       </div>
     </div>
