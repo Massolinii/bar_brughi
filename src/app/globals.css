@@ -13,7 +13,7 @@ main {
 
 .dotted-background {
   background-color: #000;
-  background-image: radial-gradient(circle, #30181d9f 1px, transparent 2px);
+  background-image: radial-gradient(circle, #30181dbd 1px, transparent 3px);
   background-size: 20px 20px;
 }
 
