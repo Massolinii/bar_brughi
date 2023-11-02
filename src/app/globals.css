@@ -10,3 +10,7 @@ main {
 .grad-magenta {
   background: linear-gradient(20deg, #632734 25%, #852748 50%, #632734 75%);
 }
+
+.home-banner-arrow:hover {
+  fill: #85404e;
+}

@@ -17,7 +17,7 @@ export default function HomeBanner({ image, text, link, icon }) {
             className="text-white no-underline"
             rel="noopener noreferrer"
           >
-            <h2 className="inline-block text-3xl md:text-5xl mb-0 font-bold bg-magenta bg-opacity-75 p-2 border-2 border-darkmag hover:bg-darkmag hover:border-magenta">
+            <h2 className="transition ease-in-out delay-50 text-3xl md:text-5xl mb-0 font-bold bg-magenta bg-opacity-75 p-2 border-2 border-darkmag hover:bg-darkmag hover:border-magenta hover:-translate-y-1 hover:scale-110 duration-300">
               {text}
             </h2>
           </a>

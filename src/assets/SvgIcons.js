@@ -169,7 +169,13 @@ c0-7.77-5.463-14.466-13.071-16.021L154.93,43.007l224.071-0.052l0.017,371.591L333
     </svg>
   ),
   HomeBannerArrow: () => (
-    <svg fill="#fff" width="40px" height="40px" viewBox="0 0 569.16 569.16">
+    <svg
+      fill="#fff"
+      width="40px"
+      height="40px"
+      viewBox="0 0 569.16 569.16"
+      className="home-banner-arrow"
+    >
       <g>
         <g>
           <path
