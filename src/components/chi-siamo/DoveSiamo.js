@@ -4,7 +4,7 @@ export default function DoveSiamo() {
   return (
     <div className="bg-black w-full pb-12">
       <div className="container mx-auto p-2">
-        <p className="text-4xl md:text-6xl text-end mb-0 p-2 md:pb-4 border-r-2 border-magenta text-lightmag">
+        <p className="text-6xl lg:text-8xl text-end mb-0 p-2 md:pb-4 border-r-2 border-magenta text-lightmag">
           Dove Siamo
         </p>
         <div className="relative">

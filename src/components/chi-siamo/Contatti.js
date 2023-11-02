@@ -47,7 +47,7 @@ export default function Contatti() {
           </div>
         </div>
 
-        <h2 className="text-4xl md:text-6xl text-end pt-1 text-lightmag">
+        <h2 className="text-6xl lg:text-8xl text-end pt-1 text-lightmag">
           Contatti
         </h2>
         <h5 className="pt-16 text-center text-xl">

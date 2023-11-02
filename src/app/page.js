@@ -14,7 +14,6 @@ export default function Home() {
       <Hero />
       <HomeBanner image={aperitivoImage} text="Menu" link="/menu" />
       <HomeBanner image={internoImage} text="Chi Siamo" link="/chi-siamo" />
-      <Spacer count={5} />
       <HeroPresentation />
     </main>
   );

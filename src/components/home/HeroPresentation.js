@@ -47,7 +47,7 @@ export default function HeroPresentation() {
   }, []);
 
   return (
-    <div className="bg-black w-full" id="hero-presentation-section">
+    <div className=" dotted-background w-full" id="hero-presentation-section">
       <Spacer count={3} />
       <div className="container mx-auto grid grid-cols-12 gap-4 p-0 md:my-8 overflow-hidden">
         {/* Left col for images: col-span-12 on mobile, col-span-4 on md and above */}
@@ -55,19 +55,19 @@ export default function HeroPresentation() {
           <img
             src={spritzphoto.src}
             alt="Foto spritz"
-            className="w-3/4 lg:w-full mx-auto"
+            className="w-3/4 lg:w-full mx-auto border rounded-sm border-gray-500"
           />
 
           <img
             src={shotphoto.src}
             alt="Foto aperitivo"
-            className="w-2/4 h-1/2 md:w-3/4 absolute top-[340px] left-[20px]"
+            className="w-2/4 h-1/2 md:w-3/4 absolute top-[340px] left-[20px] border rounded-sm border-gray-500"
           />
 
           <img
             src={aperitivophoto.src}
             alt="Foto aperitivo"
-            className="w-3/4 lg:w-full absolute top-[250px] left-[80px]"
+            className="w-3/4 lg:w-full absolute top-[250px] left-[80px] border rounded-sm border-gray-500"
           />
           <Spacer count={10} />
         </div>
