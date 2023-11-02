@@ -7,31 +7,36 @@ export default function Food() {
       img: "/menu-pics/salato/panino.webp",
       title: "Panino",
       price: "5.00€",
+      description: "Da farcire come vuoi",
     },
     {
       img: "/menu-pics/salato/toast.webp",
-      title: "Toast",
+      title: "Toast prosciutto e formaggio",
       price: "3.50€",
     },
     {
       img: "/menu-pics/salato/toastfarcito.webp",
       title: "Toast Farcito",
       price: "4.00€",
+      description: "Da farcire come vuoi",
     },
     {
       img: "/menu-pics/salato/piadina.webp",
       title: "Piadina",
       price: "5.00€",
-    },
-    {
-      img: "/menu-pics/salato/pizzamarghe.webp",
-      title: "Pizza Margherita",
-      price: "2.80€",
+      description: "Da farcire come vuoi",
     },
     {
       img: "/menu-pics/salato/focaccia.webp",
-      title: "Focaccia",
+      title: "Focaccia sale, olio e origano",
       price: "2.50€",
+      description: "",
+    },
+    {
+      img: "/menu-pics/salato/focacciafarcita.webp",
+      title: "Focaccia farcita",
+      price: "5.00€",
+      description: "Da farcire come vuoi",
     },
   ];
 
@@ -40,10 +45,16 @@ export default function Food() {
       img: "/menu-pics/dolce/cornetto.webp",
       title: "Brioches",
       price: "1.30€",
+      description: "Vari gusti",
     },
     {
-      img: "/menu-pics/dolce/crostatina.webp",
-      title: "Frolla / Crostatina",
+      img: "/menu-pics/dolce/pasticciotto.webp",
+      title: "Pasticciotto",
+      price: "1.50€",
+    },
+    {
+      img: "/menu-pics/dolce/cornettosalentino.webp",
+      title: "Cornetto Salentino",
       price: "1.50€",
     },
     {

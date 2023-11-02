@@ -83,22 +83,23 @@ export default function Drink() {
       img: "/menu-pics/alcolici/birraspina.webp",
       title: "Birra alla Spina",
       price: "4.00€",
+      description: "40cl Poretti 4 Luppoli - 5.0%",
     },
     {
       img: "/menu-pics/alcolici/birrabottiglia.webp",
       title: "Birra in Bottiglia",
       price: "2.80€",
+      description: "Weiss, Rossa, IPA",
     },
     {
       img: "/menu-pics/alcolici/tennets.webp",
-      title: "Tennent's / Ceres",
+      title: "Tennent's / Corona",
       price: "4.00€",
     },
     {
       img: "/menu-pics/alcolici/campari.webp",
       title: "Campari Soda",
       price: "3.50€",
-      description: "Gin, Vermouth dry, Campari ",
     },
     {
       img: "/menu-pics/alcolici/spritz.webp",
@@ -120,16 +121,19 @@ export default function Drink() {
       img: "/menu-pics/alcolici/amari.webp",
       title: "Amari",
       price: "3.50€",
+      description:
+        "Limoncello - Montenegro - Amaro Del Capo - Jägermeister - Mirto - Grappa - Bayles",
     },
     {
       img: "/menu-pics/alcolici/grappa.webp",
-      title: "Grappa",
-      price: "4.00€",
+      title: "Grappa e Rum",
+      price: "A partire da 4.00€",
     },
     {
       img: "/menu-pics/alcolici/shot.webp",
       title: "Shot",
       price: "2.50€",
+      description: "Vari",
     },
   ];
 

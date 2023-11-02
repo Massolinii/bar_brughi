@@ -77,6 +77,7 @@ export default function Caffetteria() {
       img: "/menu-pics/caffetteria/thè.webp",
       title: "Tè caldo",
       price: "2.50€",
+      description: "Misti",
     },
   ];
 
@@ -95,7 +96,13 @@ export default function Caffetteria() {
       img: "/menu-pics/bibite/cola.webp",
       title: "Bibite",
       price: "2.50€",
-      description: "Coca Cola, Fanta, Pepsi",
+      description: "Coca Cola, Fanta, Pepsi, Lemon",
+    },
+    {
+      img: "/menu-pics/bibite/cedrata.webp",
+      title: "Analcolici",
+      price: "3.00€",
+      description: "Chinotto, Cedrata, Gazzosa",
     },
     {
       img: "/menu-pics/bibite/redbull.webp",
@@ -111,6 +118,7 @@ export default function Caffetteria() {
       img: "/menu-pics/bibite/succhibottiglia.webp",
       title: "Succhi in Bottiglia",
       price: "2.50€",
+      description: "Ace, Albicocca, Ananas, Pera, Pesca, Mirtillo",
     },
     {
       img: "/menu-pics/bibite/aranciata.webp",
