@@ -6,7 +6,7 @@ import HomeBanner from "@/components/home/HomeBanner";
 import aperitivoImage from "../images/aperitivo-prova.webp";
 import internoImage from "../images/interno-prova.webp";
 import esternoImage from "../images/esterno-prova.webp";
-import Spacer from "@/assets/Spacer";
+import Spacer from "@/assets/Spacer.jsx";
 
 export default function Home() {
   return (

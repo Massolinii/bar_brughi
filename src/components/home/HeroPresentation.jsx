@@ -5,9 +5,9 @@ import aperitivophoto from "../../images/aperitivo-2-prova.webp";
 import shotphoto from "../../images/shot-prova.webp";
 
 import { useEffect, useState } from "react";
-import Spacer from "@/assets/Spacer";
+import Spacer from "@/assets/Spacer.jsx";
 
-import { cairo } from "@/assets/FontExport";
+import { cairo } from "@/assets/FontExport.jsx";
 
 export default function HeroPresentation() {
   const [stoolsArray, setStoolsArray] = useState([]);

@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import Copyright from "@/components/Copyright";
 import NavbarAddress from "@/components/NavbarAddress";
 
-import { bonnie } from "@/assets/FontExport";
+import { bonnie } from "@/assets/FontExport.jsx";
 
 export const metadata = {
   title: "Brughi Bar",
