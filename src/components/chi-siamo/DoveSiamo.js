@@ -1,4 +1,4 @@
-import { cairo } from "@/assets/FontExport.jsx";
+import { cairo } from "@/assets/FontExport";
 
 export default function DoveSiamo() {
   return (

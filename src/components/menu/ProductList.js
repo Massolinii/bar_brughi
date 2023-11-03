@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { cairo } from "@/assets/FontExport.jsx";
+import { cairo } from "@/assets/FontExport";
 
 export default function ProductList({ title, products }) {
   return (
